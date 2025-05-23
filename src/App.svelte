@@ -5,6 +5,7 @@
   import DistortionFolder from './components/DistortionFolder.svelte'
   import NoiseFolder from './components/NoiseFolder.svelte'
   import GlowFolder from './components/GlowFolder.svelte'
+  import PixiCanvas from './components/PixiCanvas.svelte'
 //   import { controls } from './stores/controls'
 </script>
 
@@ -16,6 +17,8 @@
 	<GlowFolder />
 </Pane>
 
-<canvas id="canvas" style="aspect-ratio: 16/9; width: 100%;"></canvas>
+<div style="aspect-ratio: 16/9; width: 100%;">
+  <PixiCanvas />
+</div>
 
 

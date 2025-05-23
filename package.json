@@ -18,6 +18,8 @@
     "vite": "^6.3.5"
   },
   "dependencies": {
+    "pixi-viewport": "^6.0.3",
+    "pixi.js": "^8.9.2",
     "svelte-tweakpane-ui": "^1.5.6"
   }
 }

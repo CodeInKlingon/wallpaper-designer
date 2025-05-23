@@ -23,6 +23,7 @@ interface ControlsState {
 	noise: NoiseState;
 	distortion: DistortionState;
 	glow: GlowState;
+	zoom: number;
 }
 
 const initialState: ControlsState = {
@@ -41,7 +42,8 @@ const initialState: ControlsState = {
 		intensity: 50,
 		size: 20,
 		color: '#ffffff'
-	}
+	},
+	zoom: 1
 };
 
 export const controls = writable<ControlsState>(initialState); 
